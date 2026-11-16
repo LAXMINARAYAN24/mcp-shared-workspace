@@ -1,0 +1,1 @@
+The MCP server only exposes files inside shared_files. The generic workflow provided to connected AI accounts is shared_files/WORKFLOW.md. Customize that file for your project; keep private project files excluded from the public repository.

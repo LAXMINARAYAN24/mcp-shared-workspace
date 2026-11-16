@@ -1,0 +1,19 @@
+# Local runtime and state
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+/data/
+/state.json
+
+# Private project content shared through MCP
+/shared_files/*
+!/shared_files/WORKFLOW.md
+!/shared_files/.gitkeep
+/shared_files/.history/
+
+# MCP URL secret and environment files
+.mcp-secret
+.env
+.env.*
+!.env.example
